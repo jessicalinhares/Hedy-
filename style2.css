@@ -1,0 +1,80 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('bannere.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000; /* Cor do texto */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.gallery-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha se não couberem */
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto; /* Centraliza a galeria na página */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Largura máxima desejada para as imagens */
+    margin: 10px; /* Adiciona espaçamento entre as imagens */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adiciona espaço entre a galeria e os botões */
+}
+
+button {
+    margin: 0 10px; /* Adiciona espaçamento entre os botões */
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(29, 167, 231); /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: 
+    rgb(82, 156, 190); /* Cor de fundo dos botões ao passar o mouse */
+}
+.header {
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.nav {
+    background-color: #0b5fad; /* azul */
+    padding: 0.5em;
+    text-align: center; /* Adicionando esta propriedade para centralizar */
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    display: inline-block; /* Torna os links elementos de bloco e alinha-os horizontalmente */
+}
+

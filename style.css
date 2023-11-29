@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* branco */
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Texto preto */
+}
+
+.header {
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.nav {
+    background-color: #0b5fad; /* azul */
+    padding: 0.5em;
+    text-align: center; /* Adicionando esta propriedade para centralizar */
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    display: inline-block; /* Torna os links elementos de bloco e alinha-os horizontalmente */
+}
+
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra branca */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.img-container {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('caminho-para-sua-imagem-de-fundo.jpg'); /* Adicione o caminho para a sua imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho para cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    color: #fff; /* Cor do texto sobre a imagem de fundo */
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* fundo branco */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0b5fad; /* azul */
+    color: #ffffff;
+}

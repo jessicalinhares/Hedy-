@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* branco */
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Texto preto */
+    text-align: center; /* Adicionando esta propriedade ao body para centralizar o texto */
+}
+
+.nav {
+    background-color: #0b5fad; /* azul */
+    padding: 0.5em;
+    text-align: center; /* Adicionando esta propriedade para centralizar */
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    display: inline-block; /* Torna os links elementos de bloco e alinha-os horizontalmente */
+}
+
+.main {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra branca */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.img-container {
+    height: 42vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; /* Ajusta o tamanho para cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    color: #fff; /* Cor do texto sobre a imagem de fundo */
+}
+
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0b5fad; /* azul */
+    color: #ffffff;
+}
+
+.content {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
